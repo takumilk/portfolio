@@ -1,0 +1,135 @@
+/* ===== Webサイト全体のスタイル ===== */
+/* html */
+html {
+  height: 100%;
+}
+
+/* body */
+body {
+  font-family: sans-serif;
+  height: 100%;
+  margin: 0;
+}
+
+/* h1見出し */
+h1 {
+  color: skyblue;/* フォントの色 */
+  font-size: 100px;/* フォントの大きさ */
+  font-family: lobster;/* フォントの種類 */
+  text-align: center;/* 文字・画像を中央にそろえる */
+  /*text-stroke: 3px black;*/
+}
+
+nav {
+  background-color: #663300;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* リスト全体 */
+nav ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+/* １つ１つのリスト */
+nav li {
+  display: inline-block;
+  margin-right: 40px;
+}
+
+/* リンク */
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* リンクにふれた時 */
+nav a:hover {
+  color: #ffcc11;
+}
+/* ===== ヘッダーのスタイル ===== */
+/* ヘッダーの箱 */
+header {
+  background-image: url(img/prof-logo.png);/* 背景画像 */
+  height: 450px;/* 高さ */
+  padding-top: 170px;/* 上がわの余白 */
+}
+
+
+/* ===== お店紹介のスタイル ===== */
+/* セクション */
+.who {
+  background-color: #ffffee;/* 背景の色 */
+  color: #663300;
+  padding: 30px;
+}
+
+/* h2見出し */
+.title {
+  font-size: 30px;
+  border-left-style: solid;
+  border-left-width: 10px;
+  padding-left: 15px;
+  margin-bottom: 50px;
+}
+
+/* 段落 */
+.who p {
+  font-size: 20px;
+  background-color: #ffffff;
+  padding: 50px;
+  border-radius: 30px;
+  height: 300px;
+}
+
+
+/* 画像 */
+.who img {
+  float: right;/* 画像や箱の回り込み */
+}
+
+
+/* ===== パン紹介のスタイル ===== */
+/* セクション */
+.works {
+  padding: 30px;
+  background-image: url(img/wood.jpg);
+  height: 800px;
+}
+
+/* h2見出し */
+.works h2 {
+  color: #ffffff;
+  border-color: #ffcc11;
+}
+
+/* h3見出し */
+.works h3 {
+  color: #663300;
+}
+
+/* 段落 */
+.works p {
+  color: #ffffff;
+  clear: left;/* 画像や箱の回り込みをやめる */
+}
+
+.works div {
+  background-color: #ffffff;
+  width: 240px;/* 横幅を指定する */
+
+  float: left;
+  margin: 10px;
+  box-shadow: 10px 10px 20px #000000;/* 影を指定する */
+}
+
+.moji-center{
+  text-align: center;
+}
+
+.works-flex{
+  display: flex;
+  text-align: center;
+  background-image: url(img/wood.jpg);
+}

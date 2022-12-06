@@ -121,6 +121,7 @@ header {
 
   float: left;
   margin: 10px;
+  padding: 10px;
   box-shadow: 10px 10px 20px #000000;/* 影を指定する */
 }
 
@@ -132,4 +133,5 @@ header {
   display: flex;
   text-align: center;
   background-image: url(img/wood.jpg);
+  padding: 10px;
 }

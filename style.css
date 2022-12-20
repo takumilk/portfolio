@@ -111,14 +111,13 @@ header {
 
 /* 段落 */
 .works p {
-  color: #ffffff;
+  /* color: #ffffff; */
   clear: left;/* 画像や箱の回り込みをやめる */
 }
 
 .works div {
   background-color: #ffffff;
   width: 240px;/* 横幅を指定する */
-
   float: left;
   margin: 10px;
   padding: 10px;
@@ -132,6 +131,10 @@ header {
 .works-flex{
   display: flex;
   text-align: center;
-  background-image: url(img/wood.jpg);
-  padding: 10px;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+
+.work{
+  width: 40%;
 }

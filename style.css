@@ -135,6 +135,24 @@ header {
   flex-wrap: nowrap;
 }
 
-.work{
+/* .work{
   width: 40%;
+} */
+
+.works2{
+  padding: 180px;
+  text-align: center;
+  background-color: #fffdf3;
+}
+
+.works2-content{
+ display: block;
+}
+
+.works2 h2{
+ font-size: 64px;
+ text-align: center;
+ letter-spacing: 0.1em;
+ border-bottom: 3px solid #ff9900;
+ display: inline-block;
 }

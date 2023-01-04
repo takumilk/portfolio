@@ -145,14 +145,38 @@ header {
   background-color: #fffdf3;
 }
 
+.works2 img{
+  margin: 24px;
+}
+
 .works2-content{
- display: block;
+ display: flex;
+ background-color: #ffffff;
+ margin-top: 40px;
+ padding: 40px;
+ box-shadow: 0 0 5px rgba(0,0,0,0.15);
+}
+
+.works2-content span{
+  font-size: 16px;
+  margin-left: 16px;
 }
 
 .works2 h2{
  font-size: 64px;
- text-align: center;
+ text-align: left;
  letter-spacing: 0.1em;
  border-bottom: 3px solid #ff9900;
  display: inline-block;
+}
+
+.works2 h3{
+  font-size: 28px;
+  text-align: left;
+}
+
+.works2 p{
+ font-size: 16px;
+ margin-top: 16px;
+ text-align: left;
 }
